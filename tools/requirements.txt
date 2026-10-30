@@ -1,0 +1,2 @@
+Pillow>=9
+openpyxl>=3.1

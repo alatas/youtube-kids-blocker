@@ -1,0 +1,18 @@
+# Parents: your blocking progress logs stay on your computer
+results/
+results-*.txt
+
+# Research tools: your Takeout export, API data and spreadsheets stay on your computer
+research/
+__pycache__/
+
+# Never commit API keys
+*.key
+.yt_api_key
+
+.DS_Store
+Thumbs.db
+
+# Network lists are each parent's own and stay on their computer (see networks/README.md)
+networks/*
+!networks/README.md

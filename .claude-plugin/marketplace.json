@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "youtube-kids-blocker",
+  "owner": {
+    "name": "Sukru Alatas",
+    "url": "https://github.com/alatas"
+  },
+  "metadata": {
+    "description": "From a video on your child's YouTube Kids profile to a blocked channel network: investigate, list and block",
+    "version": "2.0.3"
+  },
+  "plugins": [
+    {
+      "name": "youtube-kids-blocker",
+      "displayName": "YouTube Kids channel-network blocker",
+      "source": "./",
+      "description": "Finds out who is behind a video or channel (/youtube-kids-blocker:investigate-channel <link>), collects its sister channels into your own list, and blocks them on your child's YouTube Kids profile (/youtube-kids-blocker:block-channel <name>)",
+      "version": "2.0.3",
+      "author": {
+        "name": "Sukru Alatas",
+        "url": "https://github.com/alatas"
+      },
+      "homepage": "https://github.com/alatas/youtube-kids-blocker#readme",
+      "repository": "https://github.com/alatas/youtube-kids-blocker",
+      "license": "MIT",
+      "category": "parental-controls",
+      "keywords": ["youtube-kids", "youtube", "parental-controls", "kids", "children", "screen-time", "channel-blocker", "browser-automation"],
+      "tags": ["youtube-kids", "parental-controls", "chrome"]
+    }
+  ]
+}
